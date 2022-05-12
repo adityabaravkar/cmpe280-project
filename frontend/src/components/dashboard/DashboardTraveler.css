@@ -1,0 +1,23 @@
+.traveler-dashboard{
+    background-color: #f4f4f4;
+    min-height: 100% !important;
+}
+.traveler-dashboard-nav-bar{
+    background-color: white !important;
+}
+.list-property {
+    padding: 50px 0px 50px xs0px;
+}
+
+.list-property-button {
+    padding: 20px 20px 20px 20px;
+    width: 250px;
+}
+.list-property-button:hover {
+ background-color: #212529;
+ /* #0069d9 */
+ color: #f4f4f4;
+}
+.dashboard-listing {
+    
+}

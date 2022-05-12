@@ -1,0 +1,138 @@
+.property-container{
+    padding-top: 30px;
+}
+.property-details-in-page-nav {
+    float: left;
+    padding-top: 10px;
+    box-shadow: 0 2px 6px -2px rgba(0,0,0,0.2);
+}
+.property-details-body{
+    padding : 30px 0px 10px 0px
+}
+.property-details-nav-item {
+    border-right: 1px solid #f1f3f5;
+    border-bottom: 3px solid transparent;
+}
+.property-details-nav-item:hover {
+    border-bottom: 3px solid #0067db;
+    padding : 10px 10px 10px 10px
+}
+.property-details-content {
+
+}
+.property-details-booking {
+
+}
+ .carousel-inner .carousel-item {
+    height: 400px;
+  }
+  
+  .carousel-item img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-height: 400px;
+  } 
+
+  .property-detail-heading{
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .property-line{
+    border-top: 1px solid rgba(0,0,0,.2);
+  }
+
+  .property-summary {
+    font-size: 17px;
+    font-weight: bold;
+  }
+
+  .amenity-details {
+    justify-content: space-around;
+    padding-top: 12px;
+  }
+  .amenity-detail {
+    display: table-cell;
+    text-align: center;
+    overflow: visible;
+    flex-basis: 100%;
+}
+ .amenity-icon{
+    margin-bottom: 12px;
+ }
+ .inline-svg{
+    height: 30px;
+    width: 100%;
+    stroke: none;
+    fill: #0067db;
+    display: inline-block;
+ }
+ .amenity-title{
+    text-align: center;
+    color: #aeb2b4;
+    margin-bottom: 3px;
+    text-transform: capitalize;
+ }
+.amenity-value {
+    font-size: 22px;
+    font-weight: 300;
+}
+.amenity-table {
+ border-top: 0px
+}
+.property-pricing-booking {
+    float: right;
+    padding-right: 0;
+}
+.property-booking-assistance {
+    font-size: 15px;
+    line-height: 24px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.property-booking-block {
+}
+.property-booking-block-price-text{
+    /* display: flex; */
+    padding-bottom: 15px;
+}
+.property-booking-block-container{
+    background-color: #fff;
+    border: 1px solid #d7d8da;
+    padding: 20px;
+    padding-right: 0px;
+    padding-left: 30px;
+}
+.property-booking-block-price-calculator{
+
+}
+.pbbptt{
+    padding: 0px;
+    margin: 0px;
+}
+
+.pbbpc-col{
+ padding: 5px;
+}
+.pbbpc-col{
+    padding: 5px;
+}
+.pbbpc2-col{
+    padding: 0px;
+}
+.pbbp-form{
+    padding-top : 10px;
+}
+
+.pbbpc-total{
+    padding: 10px 0px 0px 0px;
+    
+}
+.pbbpc-button{
+    color: white;
+    background: #0067db;
+    width: 270px;
+    padding: 10px;
+    margin-top: 20px;
+}

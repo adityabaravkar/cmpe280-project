@@ -1,0 +1,126 @@
+.mini-sugar-card {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0 0 20px;
+    border-radius: 6px;
+    box-shadow: 0 0 8px 0 rgba(0,0,0,.1);
+    overflow: hidden;
+    position: relative;
+    -webkit-transform: perspective(100px);
+    transform: perspective(100px);
+    transition: -webkit-transform .25s;
+    transition: transform .25s;
+    transition: transform .25s,-webkit-transform .25s;
+    background: #fff;
+    flex-direction: row;
+}
+.mini-card-row{
+    flex-wrap: inherit;
+}
+.property-card {
+    margin-bottom: 24px;
+    background-color: #fff;
+    box-shadow: 5px 5px 20px -10px #d6d9d6;
+    /* box-shadow: 2px 10px 32px -5px #d6d9d6; */
+}
+.property-card:hover {
+    margin-bottom: 24px;
+    background-color: #fff;
+    box-shadow: 2px 10px 30px 2px #d6d9d6;
+}
+.property-mini-card-wrapper{
+    padding: 10px 10px 10px 10px;
+}
+
+.mini-card-thumbnail {
+    /* width: 310px;
+    min-width: 310px;
+    max-width: 310px; */
+    border-radius: 0;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    /* min-height: 232px; */
+}
+
+.mini-card-hype {
+    overflow: hidden;
+    margin-bottom: 12px;
+}
+
+.mini-card-hype-popular {
+    border-radius: 4px;
+    display: inline-block;
+    line-height: 1;
+    margin-right: 8px;
+    padding: 4px 8px;
+    background-color: #ffec40;
+    color: #323f4d;
+    flex-flow: row nowrap;
+    font-size: .75rem;
+    font-weight: 400;
+    justify-content: center;
+}
+
+.mini-card-property-title{
+    -webkit-box-flex: 0;
+    flex: none;
+    -webkit-box-ordinal-group: 3;
+    order: 2;
+    font-weight: 600;
+    line-height: 24px;
+    margin-bottom: 0;
+    overflow: hidden;
+    max-height: 48px;
+}
+
+.mini-card-property-detail{
+    /* margin: 8px 0; */
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-flow: row wrap;
+    line-height: 1em;
+    height: 1.1em;
+    overflow: hidden;
+    font-size: 0.875rem;
+}
+.mini-card-property-type {
+ padding: 0px 15px 0px 1px;
+}
+
+.mini-card-property-distance {
+padding-top : 30px;
+}
+
+.mini-card-property-distance-text {
+padding-left: 5px;
+}
+
+.mini-card-property-footer{
+    /* background: #f6f7f8; */
+    display: flex;
+    flex-flow: row nowrap;
+    -webkit-box-align: end;
+    align-items: flex-end;
+    width: 100%;
+    padding-top: 10px;
+    overflow: hidden;
+    flex-flow: column wrap;
+    align-items: flex-start;
+}
+.mini-card-property-footer-rating{
+font-size: 10px;
+}
+.mini-card-property-footer-price{
+
+}
+.mini-card-property-footer-price-text{
+
+}
+.mini-card-property-footer-price-value{
+    font-size : 30px;
+}
+.mini-card-property-footer-price-unit{
+ 
+}

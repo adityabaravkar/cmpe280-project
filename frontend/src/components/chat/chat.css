@@ -1,0 +1,5 @@
+.chat {
+    height: 100vh;
+    display: flex;
+    color: rgba(189, 189, 192, 1);
+  }

@@ -1,0 +1,167 @@
+.banner {
+    background-image: url('/home-background.jpg');
+    background-size: cover;
+    background-position: 50%;
+    box-shadow: inset -35px 50px 100px 10px rgba(0,0,0,0.60);
+}
+
+/* .Poster {
+    background-size: cover;
+    background-position: 50%
+} */
+
+h2 {
+    color: white;
+}
+
+.PosterCover {
+    position: relative;
+    /* align-items: center; */
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    min-height: 78vh
+}
+
+
+.PosterData {
+    width: 100%;
+    max-width: 1020px;
+    margin: auto;
+    padding: 0 10px
+}
+
+
+
+div.Features {
+    width: 100%;
+    padding-bottom: 16px
+}
+
+ul.Feature {
+    display: flex;
+    list-style-type: none
+}
+
+li.Feature {
+    width: 33.33%;
+    text-align: center;
+    color: #fff;
+    font-size: 10px;
+    padding : 0px 10px 0px 10px;
+}
+
+strong.Feature {
+    color: #fff;
+    margin-bottom: 0;
+    line-height: normal;
+    font-size: 2em;
+    display: block
+}
+
+span.Feature {
+    font-size: .9vw;
+    display: block
+}
+
+
+h1.Title{
+    margin: 0 10px 25px;
+}
+/* h1.Title {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: .1px;
+    text-align: left;
+    line-height: normal;
+    margin: 0 10px 10px;
+    user-select: none
+} */
+span.Title {
+    display: block;
+    color: #fff;
+    font-size: 40px;
+}
+
+
+/* .flag-icon-background{background-size:contain;background-position:50%;background-repeat:no-repeat} */
+.flag-icon{
+    background-size:contain;
+    background-position:50%;
+    background-repeat:no-repeat;
+    position:relative;
+    display:inline-block;
+    width:1.33333333em;
+    line-height:0em
+}
+.flag-icon:before{
+    content:"\00a0"
+}
+.flag-icon.flag-icon-squared{
+    height:1.2em ;
+    width:3em;
+}
+.flag-icon-us.flag-icon-squared{
+    background-image:url(/us.svg)
+}
+
+.custom-nav-link {
+    color: #fff !important;
+}
+
+.btn-custom {
+    border-radius: 40px;
+    font-size: 14px;
+    margin: 0 15px;
+    padding: 12px 40px;
+    background-color: #fff;
+    border-color: #fff
+
+}
+
+.btn-custom:focus,
+.btn-custom:hover {
+    background-color: #fff;
+    border-color: #0067db;
+}
+
+.btn-text {
+    color: #0067db;
+    padding: 15px 30px 15px 30px;
+}
+
+.nav-item {
+    padding : 10px 10px 10px 10px;
+    font-size: 14px;
+}
+
+.nav-non-btn {
+    padding : 15px 10px 10px 10px;
+}
+
+.input-group-text{
+    background: #fff;
+}
+
+.search-engine-input{
+    padding: 10px 3px 10px 3px;
+}
+
+.searchEngine{
+    margin-left: 10px;
+    background : rgba(0,0,0,0.25);
+}
+
+.form-control {
+    height: 56px;
+}
+
+.search-engine-button{
+    border-radius: 30px;
+    height: 58px;
+    width:150px;
+    font-size: 18px;
+    /* margin: 0 15px; */
+    /* padding: 12px 40px; */
+}
